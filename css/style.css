@@ -452,7 +452,9 @@ footer{
         display:none;
     }
     .div-photo-fondateur-mobile{
-        display:block;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
     .background>h1{
         text-align: center;
