@@ -369,6 +369,12 @@ iframe{
 .off-canvas{
     background:rgb(255,255,255);
 }
+.div-photo-fondateur{
+    display:block;
+}
+.div-photo-fondateur-mobile{
+    display:none;
+}
 /*CSS Footer*/
 footer{
     width:100%;
@@ -442,6 +448,12 @@ footer{
 }
 /*CSS Tablette*/
 @media screen and (max-width: 1024px) {
+    .div-photo-fondateur{
+        display:none;
+    }
+    .div-photo-fondateur-mobile{
+        display:block;
+    }
     .background>h1{
         text-align: center;
         font-size:40px;
